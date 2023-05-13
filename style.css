@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(#ffe0e0,#b8f1ff);
+}
+.navbar{
+    height:80px;
+    width: 100%;
+    background: #000;
+    display: inline-flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.navbartwo{
+    margin-left:10%;
+}
+
+.navbar ul{
+    list-style: none;
+    display: inline-flex;
+    margin-right: 6rem;
+  
+}
+
+.navbar ul li{
+    margin-left: 50px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size:20px;
+    transition: all 0.3s ease;
+}
+
+.home{
+    position: relative;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.home i{
+    padding: 8px 15px;
+}
+
+.home:hover{
+    background: #ff9900;
+}
+
+
+.navbar input{
+    padding:9px 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btnthree{
+    padding: 9px 12px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+button:hover{
+    box-shadow: -2px 3px 12px 6px rgba(0,217,99,1);
+}
+
+.navbar ul li a:hover{
+color: #00ffea;
+
+}
+
+.sidenav{
+    height:500px;
+    width:220px;
+    background: #000;
+    margin-top:5px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    display: none;
+    
+}
+
+.sidenav ul{
+    list-style: none;
+    margin-left:40px;
+    padding-top: 30px;
+
+
+}
+
+.sidenav ul li{
+    margin-top: 30px;
+}
+
+.sidenav ul li a{
+    text-decoration: none;
+    font-weight:400;
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease;
+
+}
+.sidenav ul li a:hover{
+    color: #fbff2d;
+}
+
+.brand{
+    max-height: 500px;
+    max-width:150px;
+    background: rgb(255, 195, 195);
+    display: grid;
+    grid-template-columns:50px 50px;
+    grid-template-rows:60px 60px 60px 60px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    float: right;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+
+.cars{
+    display: grid;
+    grid-template-columns:150px 150px 150px 150px;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center; 
+    column-gap:250px;
+    row-gap:80px;
+    position: relative;
+    width: 60%;
+}
+
+.cars img{
+    border: 1px solid #610101;
+    border-radius: 5px;
+    box-shadow: 2px -1px 11px 2px rgba(0,0,0,0.75);
+    width:300px;
+}
+
+
+
+section{
+  margin-left: 24rem;
+  margin-top:5rem;
+
+}
+
+.cars p{
+    font-size: 16px;
+   font-weight: 600;
+    color: rgb(0, 18, 121);
+}
+
+.cars button{
+    font-size:15px;
+    border: none;
+    background:#adffa6;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-top:4;
+    transition: all 0.3s ease;
+    color: rgb(255, 255, 255);
+    background: #0075a3;
+}
+
+.cars button:hover{
+    box-shadow: -2px 3px 12px 6px rgb(83, 75, 75)!important;
+    background: #b9b9b9;
+    color:#000;
+}
+
+.heading{
+    padding-bottom:12rem;
+   margin: 0;
+   max-width:800px; 
+   line-height:2rem;
+}
+
+.heading h1{
+    color: rgb(10, 10, 10);
+    font-size:40px;
+}
+
+.heading span{
+    color: #002fff;
+}
+
+.heading h3{
+    margin-top: 10px;
+    margin-bottom:15px;
+}
+
+.heading a{
+    text-decoration: none;
+    position: relative;
+    margin-left:20px;
+    margin-right:10px;
+    font-size:18px; 
+}
+
+.heading a:hover{
+   text-decoration:underline;
+   color: #006eff;
+}
+
+.bottom-section{
+    display: inline-flex;
+    margin-top:10.5rem;
+    padding:40px;
+    margin-left:19.8rem;
+    width: 100%!important;
+    height:25rem;
+}
+
+
+footer{
+    display: flex;
+     background:rgb(16, 14, 116);
+     padding: 20px 0 0 30rem;
+     height: 17rem;
+     margin-top:50px;
+ }
+ 
+ .box ul{
+ list-style: none;
+ padding:20px 150px 0 0;
+ }
+ .box ul li{
+   margin-left: 25px;
+   line-height:25px;
+   
+ }
+ .box h1{
+    color: rgb(0, 127, 212);
+    font-size: 30px;
+    margin-top: 15px;
+ }
+ .box ul li a{
+     text-decoration: none;
+     color: rgb(165, 165, 165);
+     font-weight:400;
+ }
+ 
+ .box ul li a:hover{
+     color: #ffff;
+ }
+ 
+ 
+ .box h1 i{
+     font-size:25px;
+     color: rgb(202, 190, 190);
+     margin-left: 8px;
+ }

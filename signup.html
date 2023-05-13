@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> <!----This is font owesome cdn link for use icon in webpage---->
+</head>
+<!-- intenal css started from here -->
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:rgb(126, 178, 194);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+legend{
+    color:rgb(255, 255, 255);
+   background: #0048a7;
+    padding:10px;
+    border-radius:5px;
+    
+}
+form{
+    max-width:1000px;
+    max-height:800px;
+    transform: translateY(5rem);
+    margin-left:28rem;
+     padding:70px;
+     background:linear-gradient(#fad2d2, #838383);
+     border-radius: 20px;
+     box-shadow: 2px 2px 28px 4px rgba(36,35,35,0.7);
+     
+}
+
+
+fieldset{
+ padding:10px 30px;
+}
+
+
+
+fieldset input{
+    padding:8px 16px;
+    background:transparent;
+    border-radius:5px;
+   border: 1px solid #0f0f0f67;
+   transition: all 0.3s ease;
+   font-size:18px;
+}
+ 
+fieldset input:hover{
+    background: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+}
+
+p{
+color:rgb(91, 0, 196);
+font-weight: 600;
+font-size:22px;
+}
+
+.sixinput{
+    margin-top:10px;
+}
+
+.heading{
+    color: rgb(89, 102, 13);
+    font-size: 22px;
+}
+
+.checkbox{
+   width: 30px;
+   
+}
+
+h2 i{
+    color: rgb(179, 42, 42);
+}
+
+.submit_button{
+padding: 10px 9px;
+background:transparent;
+color: white;
+border-radius: 5px;
+border: 1px solid #ffffff5d;
+transition: all 0.3s;
+}
+
+.submit_button:hover{
+    background: #049434;
+}
+.second{
+    background: #3a12ca;
+    color: white;
+    font-weight: 7000;
+    padding: 9px  15px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.second:hover{
+    background: #02d1d1;
+    color: #284d13;
+}
+</style>
+
+<!-- html code start  from here -->
+<body>
+    <!-- copyright -->
+    <h1 style="text-align: center;
+    background: #000;
+    color: white;
+    padding: 30px;
+    ">Credit@RifatJR</h1>
+
+    <form>
+        <fieldset>
+            <legend style="font: 25px;">SignUp Here <i class="fa-solid fa-right-to-bracket"></i></legend>
+            <br><br>
+            <span class="heading">First Name: <i class="fa-solid fa-file-signature"></i></span> <input type="text" placeholder="Enter your first name"><br><br>
+            
+            <span class="heading">Last Name: <i class="fa-solid fa-signature"></i> </span> <input type="text" placeholder="Enter your last name"><br><br>
+
+            <span class="heading"> Email: <i class="fa-solid fa-envelope"></i> </span> <input type="email" placeholder="Enter an email id"><br><br>
+
+            <span class="heading"> Password: <i class="fa fa-lock" aria-hidden="true"></i> </span><input type="password" placeholder="type your password"><br><br>
+
+
+             <span class="heading"> ReType Password: <i class="fa fa-refresh" aria-hidden="true"></i></span> <input type="password" placeholder="retype password"><br><br>
+
+            <p>Select your gender <i style="font-size: 22px;" class="fa-solid fa-venus-mars"></i></p>
+            Gender: <input class="sixinput" type="radio"  name="gender" value="male"> Male
+            <input type="radio" name="gender" value="male"> Female <br> <br>
+            <h2>Terms and conditions <i class="fa fa-exclamation-triangle" aria-hidden="true"></i></h2>
+            <input class="checkbox" type="checkbox" value="a">I can't force any client to accept my proposal.<br>
+            <input class="checkbox"  type="checkbox" value="b">I can tell friend about this website !<br>
+            <input class="checkbox"  type="checkbox" value="c">I am oder than 18! <br> <br>
+           <!-----for last page signup action for used in time---->
+         <a class="second" href="./index.html">signup</a>
+        </fieldset>
+    </form>
+</body>
+</html>
+
+onclick="location.href='login.html'
