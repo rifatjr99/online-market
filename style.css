@@ -257,3 +257,19 @@ footer{
      color: rgb(202, 190, 190);
      margin-left: 8px;
  }
+
+
+
+ @media screen and (max-width: 500px) {
+    .brand{
+        display: grid;
+        grid-template-columns:150px ;
+        grid-template-rows:1fr;
+        align-items: center;
+        justify-content: center; 
+        column-gap:50px;
+        row-gap:20px;
+        position: relative;
+        width: 60%;
+    } 
+ }
